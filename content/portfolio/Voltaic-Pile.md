@@ -17,7 +17,7 @@ For a voltaic battery constructed out of copper and zinc cells the voltage per c
 
 
 
-<img src="/img/portfolio/voltpile/graph.jpg" alt="Internal Resistance Graph" width="512" />
+<img src="/img/portfolio/voltpile/graph.jpg" alt="Internal Resistance Graph" />
 
 The graph shows how I determined the internal resistance for various situations. Knowing the voltage and the internal resistance, I calculated that it would take 710 batteries each containing 10 cells, where each cell consists of two pennies, to build a battery capable of putting out 5 volts at 0.5 amps, that is, a mediocre phone charger. 
 
