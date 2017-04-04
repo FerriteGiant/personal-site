@@ -1,18 +1,19 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = ""
+title = "About Me"
 +++
 
-I like to think of my intellectual persuits as either *"Trying to make math behave like the universe"* or *"Trying to make the universe behave like math."* The former is exemplified by my love of physics, and the later by my fascination with electrical enginnering  and computer science.  
+I like to think of my intellectual pursuits as either *"Trying to make math behave like the universe"* or *"Trying to make the universe behave like math."* 
 
+The former is exemplified by my love of physics, and the later by my fascination with electrical engineering  and computer science.  
 
-![This is me][1]
+<img src="/img/me.jpg" alt="This is me" />
 
 
 #### Education
 
-* Masters of Science in Physics (2016)
-* Bachelors of Science in Physics (2013)
+* Masters of Science in Physics (2016) at Louisiana State University
+* Bachelors of Science in Physics (2013) at Andrews University
 * Math and Computer Science Minors (2013)
 
 #### Experience
@@ -20,4 +21,3 @@ I like to think of my intellectual persuits as either *"Trying to make math beha
 
 
 
-[1]: /img/me.jpg
