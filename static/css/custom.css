@@ -3,3 +3,25 @@
 .content-column-content img {
   width:30%;
 }*/
+
+.lab-image {
+  float: left;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.content-column.white-background {
+  padding-bottom: 5rem;
+}
+
+h4 {
+  clear: both;
+  margin-top: 0;
+  padding-top: 3rem;
+}
+
+.content-column-content p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
