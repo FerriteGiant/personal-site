@@ -10,7 +10,7 @@ draft = false
 A summary of using the command line tool GnuPG for secure communication.
 <!--more-->
 
-There is loads of info out there about PGP and GPG but I could never find what I wanted summarized nicely in one place. This is my attempt to do that.
+There is a great deal of info out there about PGP and GPG but I could never find what I wanted summarized nicely in one place. This is my attempt to do that.
 
 #### PROCESS OUTLINE 
 
