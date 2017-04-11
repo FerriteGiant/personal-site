@@ -7,7 +7,7 @@ draft = false
 
 +++
 
-Teaching circuits to undergrads. From resistors and capacitors to opamps and microcontrollers.
+Teaching circuits to undergrads. From Ohm's law to opamps and microcontrollers.
 <!--more-->
 
 I taught the circuits course for physics undergrads at LSU twice, the first time as a grad student and the second as an instructor. I really enjoyed teaching this lab, partly because I learned so much myself. 
