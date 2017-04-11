@@ -18,7 +18,8 @@ googleAnalytics = ""
   copyright = "&copy;2017 Chris Greenley"
   sidebarAbout = [
     "I am a physicist and things and stuff.",
-    "I'm a current participant in the great post-grad job hunt. Like my work? Get in touch!"
+    "I'm a current participant in the great post-grad job hunt. Like my work? Get in touch!",
+    "My GPG fingerprint: 19C7 FDF3 E649 6A9D D823  1CE8 7C1C E7B5 49D5 411C"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
