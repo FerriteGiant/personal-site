@@ -18,7 +18,6 @@ The second year, I did a complete rewrite of all the labs. Below are links to th
 
 <img width="150px" class="lab-image"  src="/projects/circuit-lab/lab1_scope.png">
 
-
 Using a multimeter without letting the magic smoke out of the fuse, operating a variable DC power supply and a function generator, building circuits on breadboards, voltage divider circuits, and proper oscilloscope usage. Ends with a discussion of uncertainty and propagation thereof. 
 
 

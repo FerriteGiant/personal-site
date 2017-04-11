@@ -11,6 +11,12 @@
   padding-bottom: 1rem;
 }
 
+.about-image {
+  float: left;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
 .content-column.white-background {
   padding-bottom: 5rem;
 }
