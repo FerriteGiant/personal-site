@@ -2,7 +2,7 @@
 date = "2015-05-05T18:59:17-05:00"
 title = "Using GPG"
 showonlyimage = false
-image = "/projects/gpg/Public_key_encryption.svg"
+image = "/projects/GPG/Public_key_encryption.svg"
 draft = false
 
 +++
