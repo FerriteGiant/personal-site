@@ -18,7 +18,7 @@ googleAnalytics = ""
   description = "Describe your website"
   copyright = "&copy;2017 Chris Greenley"
   sidebarAbout = [
-    "I am a physicist and things and stuff.",
+    "I am a physicist with a passion for understanding the universe and building new things.",
     "I'm a current participant in the great post-grad job hunt. Like my work? Get in touch!",
     "My <a href=\"http://pgp.mit.edu/pks/lookup?op=vindex&search=0x7C1CE7B549D5411C\" target=\"_blank\" >GPG key</a> fingerprint: 19C7 FDF3 E649 6A9D D823  1CE8 7C1C E7B5 49D5 411C"
   ]
