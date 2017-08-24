@@ -19,9 +19,10 @@ The former is exemplified by my love of physics, and the later by my fascination
 
 #### Experience
 
-* Physics Instructor at LSU (Jan 2017 - present)
-* Research Assistant at LSU (May 2016 - present)
-* MCAT Physics Instructor at The Princeton Review (July 2016 - present)
+* Lead Instructor at BlueStamp Enginering (May 2017 - July 2017)
+* Physics Instructor at LSU (Jan 2017 - May 2017)
+* Research Assistant at LSU (May 2016 - May 2017)
+* MCAT Physics Instructor at The Princeton Review (July 2016 - May 2017)
 * Private Physics Tutor (Aug 2015 - present)
 * Physics Teaching Assistant at LSU (Aug 2013 - May 2016)
 * Physics Teaching Assistant at Andrews University (Aug 2011 - May 2013)
