@@ -2,7 +2,7 @@
 date = "2017-04-04T13:03:58-06:00"
 title = "PHYS3098: Circuits"
 showonlyimage = false
-image = "/projects/circuits-lab/circuits-lab.svg"
+image = "projects/circuits-lab/circuits-lab.svg"
 draft = false
 
 +++

@@ -1,6 +1,6 @@
 +++
 showonlyimage = false
-image = "/projects/Voltaic-Pile/volt-pile.jpg"
+image = "projects/Voltaic-Pile/volt-pile.jpg"
 draft = false
 date = "2016-10-15T15:44:02-05:00"
 title = "Voltaic Pile"

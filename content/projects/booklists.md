@@ -2,7 +2,7 @@
 date = "2016-09-24T20:44:37-05:00"
 title = "Lists of Top 100 Books" 
 showonlyimage = false
-image = "/projects/booklists/Books.svg"
+image = "projects/booklists/Books.svg"
 draft = false
 
 +++

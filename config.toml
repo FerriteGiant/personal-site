@@ -1,4 +1,4 @@
-baseurl = "http://www.chrisgreenley.com/"
+baseurl = "/"
 #baseurl = "/data/Dropbox/chrisgreenley.com/blog/public/"
 title = "Chris Greenley"
 theme = "hugo-creative-portfolio-theme"
