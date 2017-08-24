@@ -1,6 +1,6 @@
 +++
 showonlyimage = false
-image = "/projects/electronic-load/LinkImage_ElectronicLoad.jpg"
+image = "projects/electronic-load/LinkImage_ElectronicLoad.jpg"
 draft = false
 date = "2017-05-19T16:10:16-05:00"
 title = "Electronic Load"
