@@ -18,7 +18,7 @@ Mostly I want a load that can handle 1 or 2 amps for long periods, but I'd like 
 
 <img src="/projects/electronic-load/power_plot_theoretical.svg" alt="Theoretical Power Dissapation" class="img-responsive"/>
 
-The IRFP450A MOSFET has a max Drain-Source voltage of 500 volts, a max power dissipation of 190 Watts, can handle up to 8.7 Amps at a case temperate of 100 degrees Celsius, and has a nice low drain-source on resistance of 0.4 Ohms. From figure 1 in the datasheet we can see that to obtain 5 Amps the minimum required gate-source voltage is 6 volts (and drain-source is 1.5 volts). Since at 5 amps the voltage drop across the sense resistor will be 5 volts, the opamp has to be able to output at least 11 volts and supply under test must be above 6.5 volts. Since the opamp I'm using isn't rail-to-rail, a Vcc of 12 volts should be a good choice. This is handy since my cooling fan is rated for 12 volts.
+The IRFP450A MOSFET has a max drain-source voltage of 500 volts, a max power dissipation of 190 Watts, can handle up to 8.7 Amps at a case temperture of 100 degrees Celsius, and has a nice low drain-source on resistance of 0.4 Ohms. From figure 1 in the datasheet we can see that to obtain 5 Amps the minimum required gate-source voltage is 6 volts (and drain-source is 1.5 volts). Since at 5 amps the voltage drop across the sense resistor will be 5 volts, the opamp has to be able to output at least 11 volts and supply under test must be above 6.5 volts. Testing the opamp I'm using revealed that it can output up to Vcc-1.5V. Thus a Vcc of 12.5 volts is required.
 
 #### The Parts
 
@@ -35,18 +35,22 @@ The IRFP450A MOSFET has a max Drain-Source voltage of 500 volts, a max power dis
 * Banana jacks
 * Toggle switch
 * Panel Voltmeter
+* Copper clad board
+* Feric Chloride
+* Label backing paper
+* Laser Printer
 
 #### The Circuit
 
-The circuit shown below is designed to connect directly to a 9V battery, but after I built it I added in a voltage boost converter in series with the battery to let me jump the voltage up to 12V. The voltage divider formed by R1 and R2 drop 9V down to 5V and the sense resistor of 1 Ohm gives a direct conversion to current. These can be changed such that the max output voltage from the first opamp is dropped down to a voltage equal in number to the max current you want the load to ever "ask for." 
+The circuit shown below is designed to connect directly to a 9V battery, but after I built it I added in a voltage boost converter in series with the battery to let me jump the voltage up to 12.5V. The voltage divider formed by R1 and R2 drop 9V down to 5V and the sense resistor of 1 Ohm gives a direct conversion to current. These can be changed such that the max output voltage from the first opamp is dropped down to a voltage equal in number to the max current you want the load to ever "ask for." 
 
-A convenient aspect of using a 1 Ohm sense resistor is that I can use a simple panel voltmeter to measure the current to an accuracy decent enough for many applications. Avoid the 2 wire meters which measure and power themselves from the same rail. You might notice there are no dedicated connections for the meter on the circuit; I realized this too late in the process and so I just tacked the wires down at the appropriate points on the board.
+A convenient result of using a 1 Ohm sense resistor is that I can use a simple panel voltmeter to measure the current to an accuracy decent enough for most of my applications. (Avoid the 2 wire meters which measure and power themselves from the same rail.) You might notice there are no dedicated connections for the meter on the circuit. I realized this too late in the process and so I just tacked the wires down at the appropriate points on the board.
 
 <img src="/projects/electronic-load/ElectronicLoadSchematic.svg" alt="Schematic" class="img-responsive"/>
 
 ##### PCB Design
 
-The image below shows a PCB design for this circuit created in KiCad. The main current loop is shown by the yellow highlighter. Parts can be directly soldered to the board but items such as the sense resistor, MOSFET, pot, and the terminals for connecting power supplies under test I connected via jumper wires. The low power traces and other tolerances are wider than one would usually make them since I wanted to experiment with etching my own board.
+The image below shows a PCB design for this circuit created in KiCad. The main current loop is shown by the yellow highlighter. Parts can be directly soldered to the board but items such as the sense resistor, MOSFET, pot, and the terminals for connecting power supplies under test I connected via jumper wires so they could be mounted elsewhere. The low power traces and other tolerances are wider than one would usually make them since I wanted to experiment with etching my own board.
 
 **The two thick traces on the right side should be covered in solder to increase their current carrying capacity.**
 
@@ -69,7 +73,7 @@ My etching process
 * Place copper clad board in a Ferric Chloride bath and agitate until all visible copper is removed
 * Remove toner with acetone
 * Drill holes (the huge pain-in-the-ass part no one ever mentions)
-* Place components of copper free side so that the legs stick through to the copper side where soldering will happen
+* Place components on copper free side so that the legs stick through to the copper side where soldering will happen
 
 
 
