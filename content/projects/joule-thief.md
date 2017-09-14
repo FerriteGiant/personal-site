@@ -1,6 +1,6 @@
 +++
 draft = false
-date = "2017-08-25T13:21:46-05:00"
+date = "2016-07-25T13:21:46-05:00"
 title = "Joule Thief"
 showonlyimage = false
 image = "projects/joule-thief/LinkImage_crossproduct.svg"
