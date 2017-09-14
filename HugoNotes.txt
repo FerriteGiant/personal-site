@@ -1,0 +1,9 @@
+#Run hugo server to host site locally for testing
+hugo server
+
+#Compile site to public directory
+hugo
+
+#Create a new project post
+hugo new projects/name.md
+#Then create a directory in static/projects/ for files 

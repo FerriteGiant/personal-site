@@ -1,0 +1,16 @@
+#Make sure up to date with github version
+git pull
+
+#Add file to next commit
+git add <filename>
+
+#Add all modified files to next commit
+git add .
+
+#Commit change to local branch
+git commit -m 'message here'
+
+#Upload current commits to github
+git push origin master
+
+
