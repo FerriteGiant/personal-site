@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="659.44763"
+   height="368.22061"
+   viewBox="-10 -10.7 697.82821 389.65138"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="JT_Schem.svg"
+   style="shape-rendering:crispEdges">
+  <metadata
+     id="metadata375">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs373" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview371"
+     showgrid="false"
+     inkscape:zoom="0.81931077"
+     inkscape:cx="477.84765"
+     inkscape:cy="190.44911"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5.8"
+     units="px" />
+  <g
+     id="g88"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="373.65625"
+       y="325"
+       font-size="7pt"
+       display="none"
+       id="text90"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;display:none;fill:#000080">XFMR</text>
+    <text
+       x="362.95331"
+       y="324.40359"
+       font-size="7pt"
+       id="text92"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">TOROID</text>
+    <path
+       d="m 390,340 a 4,5 0 0 1 0,-10"
+       c_helper_type="arc1"
+       id="path94"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 370,360 a 4,5 0 0 1 0,10"
+       c_helper_type="arc1"
+       id="path96"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 390,370 a 4,5 0 0 1 0,-10"
+       c_helper_type="arc1"
+       id="path98"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 390,360 a 4,5 0 0 1 0,-10"
+       c_helper_type="arc1"
+       id="path100"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 390,350 a 4,5 0 0 1 0,-10"
+       c_helper_type="arc1"
+       id="path102"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 370,350 a 4,5 0 0 1 0,10"
+       c_helper_type="arc1"
+       id="path104"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 370,340 a 4,5 0 0 1 0,10"
+       c_helper_type="arc1"
+       id="path106"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <path
+       d="m 370,330 a 4,5 0 0 1 0,10"
+       c_helper_type="arc1"
+       id="path108"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="1"
+       c_origin="360 ,330"
+       id="0"
+       c_rotation="180">
+      <path
+         d="m 360,330 10,0"
+         id="path111"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="367"
+         cy="330"
+         r="3"
+         display="none"
+         id="circle113"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 370,333 3,-3 -3,-3"
+         display="none"
+         id="path115"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="3"
+       c_origin="400 ,370"
+       id="g117"
+       c_rotation="0">
+      <path
+         d="m 400,370 -10,0"
+         id="path119"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="393"
+         cy="370"
+         r="3"
+         display="none"
+         id="circle121"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 390,367 -3,3 3,3"
+         display="none"
+         id="path123"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="2"
+       c_origin="360 ,370"
+       id="g125"
+       c_rotation="180">
+      <path
+         d="m 360,370 10,0"
+         id="path127"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="367"
+         cy="370"
+         r="3"
+         display="none"
+         id="circle129"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 370,373 3,-3 -3,-3"
+         display="none"
+         id="path131"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="4"
+       c_origin="400 ,330"
+       id="g133"
+       c_rotation="0">
+      <path
+         d="m 400,330 -10,0"
+         id="path135"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="393"
+         cy="330"
+         r="3"
+         display="none"
+         id="circle137"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 390,327 -3,3 3,3"
+         display="none"
+         id="path139"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="376.5 331 376.5 368"
+       id="polyline141"
+       transform="translate(1.0274415,0)"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="381.5 331.5 381.5 367.5"
+       id="polyline143"
+       transform="translate(1.0274415,0)"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <circle
+       cx="366.25"
+       cy="333.75"
+       id="ellipse145"
+       r="1.25"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+    <circle
+       cx="393.75"
+       cy="366.25"
+       id="ellipse147"
+       r="1.25"
+       style="fill:none;stroke:#a00000;stroke-width:2" />
+  </g>
+  <g
+     id="g153"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="302"
+       y="362"
+       font-size="7pt"
+       id="text155"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">Bat</text>
+    <text
+       x="303"
+       y="353"
+       font-size="7pt"
+       id="text157"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">V1</text>
+    <circle
+       cx="290"
+       cy="350"
+       id="ellipse159"
+       r="10"
+       style="fill:none;stroke:#880000;stroke-width:2" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="1"
+       c_origin="290 ,330"
+       id="g161"
+       c_rotation="90">
+      <path
+         d="m 290,340 0,-10"
+         id="path163"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="290"
+         cy="317"
+         r="3"
+         display="none"
+         id="circle165"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 287,320 3,3 3,-3"
+         display="none"
+         id="path167"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="288 344 292 344"
+       id="polyline169"
+       transform="translate(0,1.7694823)"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="290 342 290 346"
+       id="polyline171"
+       transform="translate(0,1.7694823)"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="2"
+       c_origin="290 ,370"
+       id="g173"
+       c_rotation="270">
+      <path
+         d="m 290,360 0,10"
+         id="path175"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="290"
+         cy="383"
+         r="3"
+         display="none"
+         id="circle177"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 293,380 -3,-3 -3,3"
+         display="none"
+         id="path179"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="292 356 288 356"
+       id="polyline181"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+  </g>
+  <g
+     id="g183"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="354.03125"
+       y="392"
+       font-size="7pt"
+       id="text185"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">1k</text>
+    <text
+       x="354.039"
+       y="383.164"
+       font-size="7pt"
+       id="text187"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">R1</text>
+    <polyline
+       points="375 400 372 405"
+       id="polyline189"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="367 395 362 405"
+       id="polyline191"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="372 405 367 395"
+       id="polyline193"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="2"
+       c_origin="380 ,400"
+       id="g195"
+       c_rotation="0">
+      <path
+         d="m 380,400 -5,0"
+         id="path197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="378"
+         cy="400"
+         r="3"
+         display="none"
+         id="circle199"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 375,397 -3,3 3,3"
+         display="none"
+         id="path201"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="353 405 348 395"
+       id="polyline203"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="362 405 358 395"
+       id="polyline205"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="358 395 353 405"
+       id="polyline207"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="348 395 345 400"
+       id="polyline209"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="1"
+       c_origin="340 ,400"
+       id="g211"
+       c_rotation="180">
+      <path
+         d="m 340,400 5,0"
+         id="path213"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="342"
+         cy="400"
+         r="3"
+         display="none"
+         id="circle215"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 345,403 3,-3 -3,-3"
+         display="none"
+         id="path217"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+  </g>
+  <g
+     id="g219"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="400"
+       y="407.89062"
+       font-size="6.5pt"
+       id="text221"
+       style="font-size:8.125px;font-family:Arial;text-anchor:start;fill:#000080">NPN</text>
+    <text
+       x="400"
+       y="398.40625"
+       font-size="7pt"
+       id="text223"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">Q1</text>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="3"
+       c_origin="400 ,380"
+       id="g225"
+       c_rotation="90">
+      <path
+         d="m 400,380 0,10"
+         id="path227"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="400"
+         cy="387"
+         r="3"
+         display="none"
+         id="circle229"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+      <path
+         d="m 397,390 3,3 3,-3"
+         display="none"
+         id="path231"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="2"
+       c_origin="380 ,400"
+       id="g233"
+       c_rotation="180">
+      <path
+         d="m 380,400 10,0"
+         id="path235"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="387"
+         cy="400"
+         r="3"
+         display="none"
+         id="circle237"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+      <path
+         d="m 390,403 3,-3 -3,-3"
+         display="none"
+         id="path239"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="1"
+       c_origin="400 ,420"
+       id="g241"
+       c_rotation="270">
+      <path
+         d="m 400,420 0,-10"
+         id="path243"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="400"
+         cy="413"
+         r="3"
+         display="none"
+         id="circle245"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+      <path
+         d="m 403,410 -3,-3 -3,3"
+         display="none"
+         id="path247"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#0000ff;stroke-width:1" />
+    </g>
+    <polyline
+       points="400 390 390 397"
+       id="polyline249"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="390 403 400 410"
+       id="polyline251"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="390 391 390 409"
+       id="polyline253"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polygon
+       points="400,410 397,405 394,409 "
+       id="polygon255"
+       style="fill:#880000;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+  </g>
+  <g
+     c_rotation="90"
+     id="g257"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="470"
+       y="412.25"
+       font-size="7pt"
+       id="text259"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">.47uF</text>
+    <text
+       x="470.50781"
+       y="403.25"
+       font-size="7pt"
+       id="text261"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">C1</text>
+    <polyline
+       points="468 402 452 402"
+       id="polyline263"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="1"
+       c_origin="460 ,420"
+       id="g265"
+       c_rotation="270">
+      <path
+         d="m 460,410 0,10"
+         id="path267"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="460"
+         cy="433"
+         r="3"
+         display="none"
+         id="circle269"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 463,430 -3,-3 -3,3"
+         display="none"
+         id="path271"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="460 390 460 398"
+       id="polyline273"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="452 398 468 398"
+       id="polyline275"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="0"
+       c_spicepin="2"
+       c_origin="460 ,380"
+       id="g277"
+       c_rotation="90">
+      <path
+         d="m 460,390 0,-10"
+         id="path279"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#880000;stroke-width:2" />
+      <circle
+         cx="460"
+         cy="367"
+         r="3"
+         display="none"
+         id="circle281"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+      <path
+         d="m 457,370 3,3 3,-3"
+         display="none"
+         id="path283"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#880000;stroke-width:1" />
+    </g>
+    <polyline
+       points="460 402 460 410"
+       id="polyline285"
+       style="fill:none;stroke:#a00000;stroke-width:2;stroke-linecap:round" />
+  </g>
+  <g
+     c_rotation="180"
+     id="g287"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="418.89062"
+       y="407"
+       font-size="6.5pt"
+       display="none"
+       id="text289"
+       style="font-size:8.125px;font-family:Arial;text-anchor:start;display:none;fill:#000080">Schottky</text>
+    <text
+       x="423.86987"
+       y="407.146"
+       font-size="7pt"
+       id="text291"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">D1</text>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="1"
+       c_spicepin="1"
+       c_origin="400 ,420"
+       id="g293"
+       c_rotation="180"
+       transform="matrix(1.0485181,0,0,1,-20.377589,0)">
+      <path
+         d="m 400,420 20,0"
+         id="path295"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <circle
+         cx="417"
+         cy="420"
+         r="3"
+         display="none"
+         id="circle297"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+      <path
+         d="m 420,423 3,-3 -3,-3"
+         display="none"
+         id="path299"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="1"
+       c_spicepin="2"
+       c_origin="450 ,420"
+       id="g301"
+       c_rotation="0">
+      <path
+         d="m 450,420 -20,0"
+         id="path303"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <circle
+         cx="433"
+         cy="420"
+         r="3"
+         display="none"
+         id="circle305"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+      <path
+         d="m 430,417 -3,3 3,3"
+         display="none"
+         id="path307"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+    </g>
+    <polygon
+       points="420,430 430,420 420,410 "
+       id="polygon309"
+       style="fill:#efefef;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="432 428 432 430 430 430 430 410 428 410 428 412"
+       id="polyline311"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+  </g>
+  <g
+     c_rotation="270"
+     id="g313"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)">
+    <text
+       x="523"
+       y="407.25"
+       font-size="7pt"
+       display="none"
+       id="text315"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;display:none;fill:#000080">204-10UYC/S530-A3</text>
+    <text
+       x="480.22833"
+       y="386.67343"
+       font-size="7pt"
+       id="text317"
+       style="font-size:8.75px;font-family:Arial;text-anchor:start;fill:#000080">LED</text>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="1"
+       c_spicepin="1"
+       c_origin="500 ,370"
+       id="g319"
+       c_rotation="90">
+      <path
+         d="m 500,370 0,20"
+         id="path321"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <circle
+         cx="500"
+         cy="387"
+         r="3"
+         display="none"
+         id="circle323"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+      <path
+         d="m 497,390 3,3 3,-3"
+         display="none"
+         id="path325"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+    </g>
+    <g
+       c_partid="part_pin"
+       c_etype="pinpart"
+       c_show="show"
+       c_elec="1"
+       c_spicepin="2"
+       c_origin="500 ,420"
+       id="g327"
+       c_rotation="270">
+      <path
+         d="m 500,420 0,-20"
+         id="path329"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+      <circle
+         cx="500"
+         cy="403"
+         r="3"
+         display="none"
+         id="circle331"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+      <path
+         d="m 503,400 -3,-3 -3,3"
+         display="none"
+         id="path333"
+         inkscape:connector-curvature="0"
+         style="display:none;fill:none;stroke:#000000;stroke-width:1" />
+    </g>
+    <polygon
+       points="490,390 500,400 510,390 "
+       id="polygon335"
+       style="fill:#efefef;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="510 404 517 411"
+       id="polyline337"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="514 400 521 407"
+       id="polyline339"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polygon
+       points="517,411 515,407 513,409 "
+       id="polygon341"
+       style="fill:#efefef;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polygon
+       points="521,407 519,403 517,405 "
+       id="polygon343"
+       style="fill:#efefef;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+    <polyline
+       points="510 400 490 400"
+       id="polyline345"
+       style="fill:none;stroke:#880000;stroke-width:2;stroke-linecap:round" />
+  </g>
+  <polyline
+     points="400 330 400 300 290 300 290 330"
+     id="polyline347"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <polyline
+     points="360 330 360 300"
+     id="polyline349"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <circle
+     cx="223.21365"
+     cy="0.21871828"
+     r="5.6277208"
+     id="circle351"
+     style="fill:#cc0000;stroke-width:2" />
+  <polyline
+     points="400 385 400 370 500 370 500 370"
+     id="polyline353"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <polyline
+     points="460 380 460 370"
+     id="polyline355"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <polyline
+     points="500 420 450 420"
+     id="polyline357"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <circle
+     cx="504.59973"
+     cy="197.18895"
+     r="5.6277208"
+     id="circle359"
+     style="fill:#cc0000;stroke-width:2" />
+  <polyline
+     points="290 370 290 400 340 400 340 370 360 370"
+     id="polyline361"
+     style="fill:none;stroke:#008800;stroke-width:2;stroke-linecap:round"
+     transform="matrix(2.8138604,0,0,2.8138604,-789.77605,-843.93936)" />
+  <circle
+     cx="335.7681"
+     cy="197.18895"
+     r="5.6277208"
+     id="circle363"
+     style="fill:#cc0000;stroke-width:2" />
+  <circle
+     cx="166.93648"
+     cy="281.60474"
+     r="5.6277208"
+     id="circle365"
+     style="fill:#cc0000;stroke-width:2" />
+  <circle
+     cx="335.7681"
+     cy="225.32753"
+     r="5.6277208"
+     id="circle367"
+     style="fill:#cc0000;stroke-width:2" />
+  <circle
+     cx="504.59973"
+     cy="337.88193"
+     r="5.6277208"
+     id="circle369"
+     style="fill:#cc0000;stroke-width:2" />
+</svg>
