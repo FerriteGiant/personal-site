@@ -10,9 +10,9 @@ date = "2016-11-19T18:32:49-05:00"
 Modding an old Tek scope to have a manual switch for controlling the x10/x1 indicator light.
 <!--more-->
 
-I have an old analog Tektronix oscilloscope I use for my home projects which has served me quite well over the last couple years. One grip I do have is that when I switch my probe to x10 attenuation mode, the backlight on the voltage dial shows the wrong number. If I was using the proper Tek probes there would be a little pin which would connect to the metal ring around the BNC connector on the scope. This would tell the scope when I switched in to x10 mode and switch the backlight position on the voltage dial. This would be especially useful for when I take pictures of the scope display for future reference and I need the numbers in the picture to be correct, not of by a factor of 10.
+I have an old analog Tektronix oscilloscope I use for my home projects which has served me quite well over the last couple years. One gripe I do have is that when I switch my probe to x10 attenuation mode, the backlight on the voltage dial shows the wrong number. If I was using the proper Tek probes there would be a little pin which would connect to the metal ring around the BNC connector on the scope. This would tell the scope when I switched in to x10 mode and switch the backlight position on the voltage dial. This would be especially useful for when I take pictures of the scope display for future reference and I need the numbers in the picture to be correct, not off by a factor of 10.
 
-As a poor grad student, I'm not going to go spend money on new probes just for this minor feature. Instead I decided to install a switch for each channel  which would allow me to manually change the voltage backlight as needed.
+As a poor grad student, I'm not going to go spend money on new probes just for this minor feature. Instead I decided to install a switch for each channel which would allow me to manually change the voltage backlight as needed.
 
 <br />
 <img src="/projects/scope-mod/scope_front.jpg" alt="Scope front view" width=80% class="img-responsive"/>
@@ -31,7 +31,7 @@ I found a promising looking section of the schematic (shown below, red additions
 
 <br />
 
-The base of transistor Q191 is normally pulled high by R190. This both connects the x1 light to GND (completing its circuit) and keeps the base of the transistor Q192 low and thus the x10 light off. So I just need to make a switch to pull the base of Q191 to low which will result in the base of Q192 being pulled high (by the 1 MOhm resistor) thus completing the circuit for the x10 light. From some other reading I did it seems like the Tek probes connected the base of Q182 to ground through a ~10k resistor, it would probably be fine either way, but I'll go ahead and use the resistor. With the 150k and the 10k resistors forming a voltage divider when the switch is closed, the base of the transistor would be at (5*10)/(150+10) = 0.3 volts which is easily low enough to turn off Q191. 
+The base of transistor Q191 is normally pulled high by R190. This both connects the x1 light to GND (completing its circuit) and keeps the base of the transistor Q192 low and thus the x10 light off. So I just need to make a switch to pull the base of Q191 low which will result in the base of Q192 being pulled high (by the 1 MOhm resistor) thus completing the circuit for the x10 light. From some other reading I did it seems like the Tek probes connected the base of Q182 to ground through a ~10k resistor, it would probably be fine either way, but I'll go ahead and use the resistor. With the 150k and the 10k resistors forming a voltage divider when the switch is closed, the base of the transistor would be at (5*10)/(150+10) = 0.3 volts which is easily low enough to turn off Q191. 
 
 The modifications are shown on the schematic in red. 
 
@@ -62,5 +62,5 @@ Since I have a 3D printer I can't help but model up some switch covers in Fusion
 <img src="/projects/scope-mod/covers.jpg" alt="result" class="img-responsive"/>
 <br />
 
-I'm quite pleased with the final result and it will make using the scope quite a bit nicer.
+I'm quite pleased with the final result and it will make using the scope rather more convenient.
 
