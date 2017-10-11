@@ -1,3 +1,7 @@
+
+#Update local references and show if a pull is needed
+git remote -v update
+
 #Make sure up to date with github version
 git pull
 
