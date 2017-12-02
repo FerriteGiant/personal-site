@@ -44,4 +44,9 @@
     <img src="/img/thingiverse_icon.svg"/>
   </a>
   {{end}}
+  {{ with .Site.Params.social.instructables }}
+  <a href="{{ . }}" data-animate-hover="pulse">
+    <img src="/img/instructables_icon.svg"/>
+  </a>
+  {{end}}
 </p>
