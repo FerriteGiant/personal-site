@@ -39,4 +39,9 @@
     <i class="fa fa-github"></i>
   </a>
   {{end}}
+  {{ with .Site.Params.social.thingiverse }}
+  <a href="{{ . }}" data-animate-hover="pulse">
+    <img src="/img/thingiverse_icon.svg"/>
+  </a>
+  {{end}}
 </p>
