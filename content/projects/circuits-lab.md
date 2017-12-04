@@ -74,7 +74,7 @@ Construct an unbiased emitter follower. Design and construct a biased emitter fo
 Construct an inverting amplifier and a summing amplifier. Build a closed loop PID constant illumination controller using eight opamps and a phototransistor.
 
 
-#### Lab 11 - Digital Logic and Audio Synths [(pdf)](/projects/circuits-lab/PHYS_3098_Lab_11_Digital_Logic_and Synths.pdf)
+#### Lab 11 - Digital Logic and Audio Synths [(pdf)](/projects/circuits-lab/PHYS_3098_Lab_11_Digital_Logic_and_Synths.pdf)
 <img width="150px" class="lab-image"  src="/projects/circuits-lab/lab11_or.svg">
 
 Construct NAND, NOT, AND, OR and NOR gates using NAND logic with LEDs showing the state of each gate. Using 555 timer ICs construct astable and monostable multivibrators. Link these together to form a simple audio synthesizer, often called the Atari Punk Console.
