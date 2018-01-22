@@ -88,7 +88,7 @@ The generally recommended diode is a Schottky diode due to its low forward volta
 
 <img src="/projects/charge-pump/LevelShifter_1N5818.png" alt=""  class="img-responsive"/>
 
-The diode I went with is the 1N60 germanium diode. This has a very low forward voltage drop but the capacitance is only around 15 pF. The result is a very fast turn off time but no ringing.
+The diode I went with is the 1N60 germanium diode. This diode has a very low forward voltage drop but the capacitance is only around 15 pF. The result, shown below, is a very fast turn off time but no ringing.
 
 <img src="/projects/charge-pump/LevelShifter_1N60.png" alt=""  class="img-responsive"/>
 
