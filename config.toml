@@ -15,8 +15,8 @@ googleAnalytics = ""
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "sea"
-  description = "Describe your website"
-  copyright = "&copy;2017 Chris Greenley"
+  description = "Various projects relating to embedded/computer engineering, electrical engineering, 3D printing, physics, etc..."
+  copyright = "&copy;2018 Chris Greenley"
   sidebarAbout = [
     "I am a physicist and engineer with a passion for understanding the universe and building new things.",
     "I'm a current participant in the great post-grad job hunt. Like my work? Get in touch!",
