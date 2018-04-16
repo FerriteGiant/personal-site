@@ -204,5 +204,7 @@ The scope output below shows the beginning of a row where the data 01110 is bein
 
 <img src="/projects/lcd-screen/scope_Three_pixels.png" alt="Scope output"  class="img-responsive"/>
 
+<br /> 
+
 Read [Part Two](/projects/screen-driver/)!
 
