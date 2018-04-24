@@ -113,7 +113,7 @@ A few screen related constants, two arrays large enough to hold an entire screen
 ```c
 #define FRAME_REFRESH_HZ  11
 #define LCD_REFRESH_HZ    44
-#define BUFFER_SIZE          (SCREENW*SCREENH/8)
+#define BUFFER_SIZE          (SCREEN_W*SCREEN_H/8)
 
 uint8_t ScreenBufferA[BUFFER_SIZE] = {0};
 uint8_t ScreenBufferB[BUFFER_SIZE] = {0}; 
@@ -197,7 +197,7 @@ void Screen_Init(void){
   //////////////////////////////////////////////////
   //Enable systick interrupts for writing to LCD  //
   //////////////////////////////////////////////////
-  uint32_t sysTickReloadCount = (80000000/LCD_REFRESH_HZ/SCREENH);  
+  uint32_t sysTickReloadCount = (80000000/LCD_REFRESH_HZ/SCREEN_H);  
   NVIC_ST_CTRL_R = 0;           // disable SysTick during setup
   NVIC_ST_RELOAD_R = sysTickReloadCount-1;     // reload value 
   NVIC_ST_CURRENT_R = 0;        // any write to current clears it
@@ -243,7 +243,7 @@ void Screen_ClearBuffer(void)
 
 #### Interrupt Handling
 
-Each time the interrupt service routine is called, the row corresponding to the current value of rowIndex is loaded into the LCD. The value of rowIndex loops from zero up to SCREENH-1. A row stays active on the display until the next time the interrupt runs. The second part of the ISR only runs if the last row of a frame was just displayed, if the current frame has been displayed enough times, and if the new frame is ready. If all these conditions are met, then the read and write buffers are switched. 
+Each time the interrupt service routine is called, the row corresponding to the current value of rowIndex is loaded into the LCD. The value of rowIndex loops from zero up to SCREEN_H-1. A row stays active on the display until the next time the interrupt runs. The second part of the ISR only runs if the last row of a frame was just displayed, if the current frame has been displayed enough times, and if the new frame is ready. If all these conditions are met, then the read and write buffers are switched. 
 
 ```c
 void SysTick_Handler(void){
@@ -252,7 +252,7 @@ void SysTick_Handler(void){
   static uint8_t lcdUpdates = 0;
   
   PrintNextRow(rowIndex);
-  rowIndex = (rowIndex+1)%SCREENH;
+  rowIndex = (rowIndex+1)%SCREEN_H;
   
   if(rowIndex==0 and ++lcdUpdates>=minLcdUpdatesPerFrame and writeBufferIsFull)
   {
@@ -310,7 +310,7 @@ static void PrintNextRow(uint8_t rowIndex){
 
   uint8_t bytesPerRow,colIndex;
   uint8_t bufferByteLeft, bufferByteRight,bitValLeft,bitValRight;
-  bytesPerRow = SCREENW>>3;// divided by 8 (bytes)
+  bytesPerRow = SCREEN_W>>3;// divided by 8 (bytes)
   
     for(colIndex=0;colIndex<(bytesPerRow>>1);++colIndex){
       bufferByteLeft = readBuffer[rowIndex*bytesPerRow+colIndex];
