@@ -21,10 +21,10 @@ The previous post dealt with the LCD hardware and the specifics of the ICs. This
 
 Before diving into the details of getting pixels to actually show up in the proper locations on the screen, let's walk though a high level overview of how the driver is going to be set up.
 
-* There will be two chucks of memory allocated as frame buffers. The two buffers will switch between being written to and being read from. This will be accomplished by using two pointers, a "readBuffer" pointer and a "writeBuffer" pointer.
+* There will be two chunks of memory allocated as frame buffers. The two buffers will switch between being written to and being read from. This will be accomplished by using two pointers, `readBuffer` and `writeBuffer`.
 * Sprites will be stored in row-column order, each row right padded to the nearest byte. Each bit will represent a single pixel. Zero meaning deactive (clear), and One meaning active (dark).
-* Sprites will be loaded into the frame buffer currently pointed to by the "writeBuffer" pointer. Upon loading the last sprite, the higher level code will let the driver know that the frame is complete.
-* A timer will trigger an interrupt and at each interrupt a single row of the writeBuffer will be loaded into the LCD controller ICs and latched out to display on the screen. 
+* Sprites will be loaded into the frame buffer currently pointed to by `writeBuffer`. Upon loading the last sprite, the higher level code will let the driver know that the frame is complete.
+* A timer will trigger an interrupt and at each interrupt a single row of the `readBuffer` will be loaded into the LCD controller ICs and latched out to display on the screen. 
 * After loading the last row in a frame, a check is performed to determine if the pointers to the read and write buffers should be switched.
 
 #### System Overview
@@ -60,10 +60,10 @@ int main(void){
     
     if(IO_Ready())
     {
-      DT_DrawDiag();
-      DT_DrawBorder();
+      DisplayTests_DrawDiag();
+      DisplayTests_DrawBorder();
 
-      IO_setCompletedUpdatesFlag(); 
+      IO_UpdatesCompleted(); 
     }
     
   }
@@ -77,7 +77,7 @@ The IO module has public functions declared in IO.h. The relevant public functio
 ```c
 void IO_Init(void);
 bool IO_Ready(void);
-void IO_setCompletedUpdatesFlag(void);
+void IO_UpdatesCompleted(void);
 void IO_LoadSprite( const uint16_t xpos, 
                     const uint16_t ypos, 
                     const Sprite_t sprite );
@@ -88,14 +88,14 @@ void IO_LoadSprite( const uint16_t xpos,
 The screen module has public functions which are only called by IO.c. No other module is aware of its existence. The header file, screen.h, contains the declarations of these public functions as well as the screen width and screen height in pixels.
 
 ```c
-#define  SCREENW  480
-#define  SCREENH  64
+#define  SCREEN_W  480
+#define  SCREEN_H  64
 
 void Screen_Init(void);
-void Screen_setWriteBufferIsFull(void);
-bool Screen_IsWriteBufferAvailable(void);
+void Screen_SetBufferIsFull(void);
+bool Screen_IsBufferAvailable(void);
 void Screen_ClearBuffer(void);
-uint8_t * Screen_getCurrentWriteBuffer(void);
+uint8_t * Screen_GetBuffer(void);
 ```
 
 #### The Screen Driver
@@ -113,10 +113,10 @@ A few screen related constants, two arrays large enough to hold an entire screen
 ```c
 #define FRAME_REFRESH_HZ  11
 #define LCD_REFRESH_HZ    44
-#define BUFFSIZE          (SCREENW*SCREENH/8)
+#define BUFFER_SIZE          (SCREENW*SCREENH/8)
 
-uint8_t ScreenBufferA[BUFFSIZE] = {0};
-uint8_t ScreenBufferB[BUFFSIZE] = {0}; 
+uint8_t ScreenBufferA[BUFFER_SIZE] = {0};
+uint8_t ScreenBufferB[BUFFER_SIZE] = {0}; 
 uint8_t *writeBuffer = NULL;
 uint8_t *readBuffer = NULL;
 ```
@@ -215,19 +215,19 @@ void Screen_Init(void){
 The following functions make up the public interface which is accessed by the IO.c module. The names should be fairly self explanatory. 
 
 ```c
-uint8_t * Screen_getCurrentWriteBuffer(void)
+uint8_t * Screen_GetBuffer(void)
 {
   return writeBuffer;
 }
 
-void Screen_setWriteBufferIsFull(void)
+void Screen_SetBufferIsFull(void)
 {
   writeBufferIsFull = true;
   writeBufferAvailable = false;
 }
 
 
-bool Screen_IsWriteBufferAvailable(void)
+bool Screen_IsBufferAvailable(void)
 {
   return writeBufferAvailable;
 }
@@ -235,7 +235,7 @@ bool Screen_IsWriteBufferAvailable(void)
 void Screen_ClearBuffer(void)
 { 
   uint16_t i;
-  for(i=0;i<BUFFSIZE;i++){
+  for(i=0;i<BUFFER_SIZE;i++){
     writeBuffer[i]=0x00; //zeros correspond to the default clear pixel state
   }
 }
