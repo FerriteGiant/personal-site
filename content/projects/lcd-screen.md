@@ -206,5 +206,5 @@ The scope output below shows the beginning of a row where the data 01110 is bein
 
 <br /> 
 
-Read [Part Two](/projects/screen-driver/)!
+Read [Part Two](/projects/lcd-driver/)!
 
