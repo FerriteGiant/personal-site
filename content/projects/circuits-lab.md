@@ -51,7 +51,7 @@ Combine three sine waves of different frequencies and design three filters to pu
 
 
 
-#### Lab 7 - LTSpice Simulations and IV Curves [(pdf)](/projects/circuits-lab/PHYS_3098_Lab_08_Simulations_and_IV_Curves.pdf)
+#### Lab 7 - LTSpice Simulations and IV Curves [(pdf)](/projects/circuits-lab/PHYS_3098_Lab_07_Simulations_and_IV_Curves.pdf)
 <img width="150px" class="lab-image"  src="/projects/circuits-lab/lab7_IV.svg">
 
 Use LTSpice to simulate a voltage divider, a high pass filter in the time domain, create a Bode plot, and the IV curve for a diode. Measure the real life current and voltage values for a diode and create an IV plot.
