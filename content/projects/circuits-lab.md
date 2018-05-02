@@ -85,7 +85,7 @@ Construct NAND, NOT, AND, OR and NOR gates using NAND logic with LEDs showing th
 
 Set up the Arduino IDE and upload code to a SparkFun Redboard. Use the microcontroller to control an RGB LED. Read in values from a flex sensor and set the position of a servo accordingly. Control a relay via a transistor and use a scope to show why a flyback diode is needed. Display text on an LCD.
 
-#### Lab 13 - Microcontrollers II[(pdf)](/projects/circuits-lab/PHYS_3098_Lab_13_Microcontrollers_II.pdf)
+#### Lab 13 - Microcontrollers II[(pdf](/projects/circuits-lab/PHYS_3098_Lab_13_Microcontrollers_II.pdf),[code)](/projects/circuits-lab/lab13code.zip)
 <img width="150px" class="lab-image"  src="/projects/circuits-lab/lab13_dac.svg">
 
 Decode the signal from an IR remote. Build a 5-bit R-2R digital to analog converter (DAC). Hook up the DAC to a common collector amplifier and a speaker. Synthesize sine waves corresponding to musical notes using direct digital synthesis (DDS). Use the remote control to select various frequencies, creating a remote controlled piano.
