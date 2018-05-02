@@ -10,7 +10,7 @@ draft = false
 Teaching circuits to undergrads. From Ohm's law to opamps and microcontrollers.
 <!--more-->
 
-I taught the circuits course for physics undergrads at LSU twice, the first time as a grad student and the second as an instructor. I really enjoyed teaching this lab, partly because I learned so much myself. 
+I taught the circuits lab for physics majors three times, the first time as a grad student and the second and third times as an instructor. I really enjoyed teaching this lab, partly because I learned so much myself. 
 
 The second year, I did a complete rewrite of all the labs. Below are links to the full labs and summaries of what was covered in each lab. 
 
@@ -84,3 +84,8 @@ Construct NAND, NOT, AND, OR and NOR gates using NAND logic with LEDs showing th
 <img width="150px" class="lab-image"  src="/projects/circuits-lab/lab12_unoboard.png">
 
 Set up the Arduino IDE and upload code to a SparkFun Redboard. Use the microcontroller to control an RGB LED. Read in values from a flex sensor and set the position of a servo accordingly. Control a relay via a transistor and use a scope to show why a flyback diode is needed. Display text on an LCD.
+
+#### Lab 13 - Microcontrollers II[(pdf)](/projects/circuits-lab/PHYS_3098_Lab_13_Microcontrollers_II.pdf)
+<img width="150px" class="lab-image"  src="/projects/circuits-lab/lab13_dac.svg">
+
+Decode the signal from an IR remote. Build a 5-bit R-2R digital to analog converter (DAC). Hook up the DAC to a common collector amplifier and a speaker. Synthesize sine waves corresponding to musical notes using direct digital synthesis (DDS). Use the remote control to select various frequencies, creating a remote controlled piano.
