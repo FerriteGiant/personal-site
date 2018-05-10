@@ -26,7 +26,6 @@ typedef struct _vector {
     int y;
 }  vector_type;
 
-//void printPoint(struct _vector point);
 void printPoint(vector_type point);
 
 int main()
