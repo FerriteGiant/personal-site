@@ -9,12 +9,25 @@ draft = false
 An overview of declaring and accessing structs.
 <!--more-->
 
-A collection of examples for quick reference. For more info I recommend the [tutorialspoint](https://www.tutorialspoint.com/cprogramming/c_structures.htm) page and section 6.7.2.1 "Structure and union specifiers" in the [current C11 standard](http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1570.pdf). 
+A collection of examples for quick reference. For more info I recommend the following resources:
 
-The following code can be run and forked at [https://onlinegdb.com/HyJkapYvG](https://onlinegdb.com/HyJkapYvG).
+* [TutorialsPoint - C Structures](https://www.tutorialspoint.com/cprogramming/c_structures.htm) 
+* Section 6.7.2.1 "Structure and union specifiers" in the [current C11 standard](http://www.open-std.org/JTC1/SC22/WG14/www/docs/n1570.pdf) 
+* [The New C: Compound Literals](http://www.drdobbs.com/the-new-c-compound-literals/184401404)
+* [Designated Initialization With Compound Literals in C](http://nickdesaulniers.github.io/blog/2013/07/25/designated-initialization-with-pointers-in-c/)
 
-``` c
+The following code can be run and forked at [onlinegdb.com/SyhklQzAf](https://onlinegdb.com/SyhklQzAf).
+
+```c
 #include <stdio.h>
+
+typedef struct _vector {
+    int x;
+    int y;
+}  vector_type;
+
+//void printPoint(struct _vector point);
+void printPoint(vector_type point);
 
 int main()
 {
@@ -124,9 +137,56 @@ int main()
     printf("//Set and accessed via pointer\n");
     
     
+    ////////////////////////////////////////////////////////
+    // Initalizing a struct using designated initializers //
+    ////////////////////////////////////////////////////////
+    
+    typedef struct {
+        int x;
+        int y;
+    } vectorF_type;
+    
+    /* Initializing a struct without specifying the value/field assocation has */
+    /* various downsides. One must refer back to the definition to know the 
+    /* field order and the order might change, resulting in broken code. */
+    vectorF_type vectorF1 = {70,77}; //Without designating the fields
+    printf("vectorF1: (%d,%d)\n",vectorF1.x,vectorF1.y);
+    
+    /* Using designated initializers fixes these issues */
+    vectorF_type vectorF2 = {.x=80, .y=88};
+    printf("vectorF2: (%d,%d)\n",vectorF2.x,vectorF2.y);
+    
+    
+    ////////////////////////////////////////////////////////
+    // Initalizing a struct using a compound literal      //
+    ////////////////////////////////////////////////////////
+    
+    /* If you want to declare and initalize a struct seperatly, or if you */
+    /* want to assign new values using the initialization syntax then you */
+    /* must use a compound literal, which behaves pretty much like a cast. */
+    /* The "cast" tells the compiler how to handle the values in the braces. */ 
+    vectorF_type vectorF3;
+    vectorF3 = (vectorF_type){90,99}; //Would fail without "cast" 
+    printf("vectorF3: (%d,%d)\n",vectorF3.x,vectorF3.y);
+    
+    //Can also combine with designated initializers
+    vectorF3 = (vectorF_type){.y=92,.x=91}; //Can designate the values in any order
+    printf("vectorF3: (%d,%d)\n",vectorF3.x,vectorF3.y);
+    
+    //Can be used to pass anonymous structures to functions
+    //printPoint({.x=100,.y=101}); <-- Will fail to compile
+    printPoint((vector_type){.x=100,.y=101});
+    
+
     return 0;
 }
+
+void printPoint(vector_type point) {
+    printf("vector: (%d,%d)\n",point.x,point.y);
+}
 ```
+
+
 Console output:
 
 ```
@@ -138,4 +198,9 @@ vectorD: (50,55)
 vectorD: (56,59) //Set and accessed via pointer
 vectorE: (60,66)
 vectorE: (63,65) //Set and accessed via pointer
+vectorF1: (70,77)
+vectorF2: (80,88)
+vectorF3: (90,99)
+vectorF3: (91,92)
+vector: (100,101)
 ```
