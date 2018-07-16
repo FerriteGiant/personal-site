@@ -23,7 +23,7 @@ The circuit board the screen is attached to has a ten pin row of standard 0.1" h
 Datasheets
 
 * [LC7940/LC7941 Segment Driver](http://www.pacificdisplay.com/ics_app%20notes/sanyo/LC7940-41YC.pdf)
-* [LC7942 Common Ddriver](http://www.pacificdisplay.com/ics_app%20notes/sanyo/LC7942.pdf)
+* [LC7942 Common Driver](http://www.pacificdisplay.com/ics_app%20notes/sanyo/LC7942.pdf)
 * [LA6324 Quad OpAmp](https://www.onsemi.com/pub/Collateral/LA6324N-D.PDF)
 
 <img src="/projects/lcd-screen/Screen_back.jpg" alt="Screen Back"  class="img-responsive"/>
@@ -168,13 +168,13 @@ In brief:
 
 The screen is split into two sections, each 240 pixels wide. The two halves are loaded in parallel and all the logic is the same for each half. Until I get into the software we can ignore the right half of the screen and pretend there are only three column driver ICs.
 
-All three ICs have their serial inputs connected together and brought out to header pin 1. This means each IC sees all 240 bits of data but only accepts 80. This is accomplished though the CDI and CDO pins. When CDI is low the chip will read in data from the serial input. When the CDI pin is high it won't. The following steps go through the process of filling all three buffers.
+All three ICs have their serial inputs connected together and brought out to header pin 1. This means each IC sees all 240 bits of data but only accepts 80. This is accomplished though the CDI and CDO pins. When CDI (Chip Disable) is low the chip is enabled and will read in data from the serial input. When the CDI pin is high it won't. The following steps go through the process of filling all three buffers.
 
 1. Start with all buffers empty (due to the latch clock)
 2. CDI1 is held low, CDO1/CDI2 and CDO2/CDI3 begin high
-3. After the first 80 bits have been read into IC1, CDO1 (and thus CDI2) goes high
+3. After the first 80 bits have been read into IC1, CDO1 (and thus CDI2) goes low
 4. IC1 is full and so will ignore the remaining 160 bits
-5. The middle set of 80 bits are read into IC2, CDO2/CDI3 goes high
+5. The middle set of 80 bits are read into IC2, CDO2/CDI3 goes low
 6. IC1 and IC2 are both full and thus ignore the remaining 80 bits
 7. The last 80 bits are read into IC3
 
