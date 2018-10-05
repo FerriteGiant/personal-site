@@ -3,7 +3,7 @@ draft = false
 date = "2018-09-29T11:26:38-07:00"
 title = "Dive Computer Teardown"
 showonlyimage = false
-image = "projects/dive-comp-teardown/front.jpg"
+image = "projects/dive-comp-teardown/LinkImage-front.jpg"
 
 +++
 
@@ -29,7 +29,7 @@ Removing the battery cover turned out not to be necessary but I didn't know that
 <img src="/projects/dive-comp-teardown/battery-compartment.jpg" alt=""  style="width:400px" class="img-responsive"/>
 <br />
 
-This was the hard part. The clear shell has internal threads that a ring which fits over the sandwich of the screen, circuitboard and back section screws into. I had to pry the edge up all the way around to break the glue, and then I managed to stab a flathead screwdriver rather deeply into my finger which trying to exert enough torque to unscrew things. What ended up working was banging on the back of the screwdriver with a hammer as I held it angled down into one of the 4 small indents and at a tangent to the circle of rotation.
+This was the hard part. The clear shell has internal threads that a ring which fits over the sandwich of the screen, circuitboard and back section screws into. I had to pry the edge up all the way around to break the glue, and then I managed to stab a flathead screwdriver rather deeply into my finger while trying to exert enough torque to unscrew things. What ended up working was banging on the back of the screwdriver with a hammer as I held it angled down into one of the 4 small indents and at a tangent to the circle of rotation.
 
 <br />
 <img src="/projects/dive-comp-teardown/outer-shell-a.jpg" alt=""  style="width:400px" class="img-responsive"/>
