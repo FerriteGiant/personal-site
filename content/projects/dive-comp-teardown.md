@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2018-09-29T11:26:38-07:00"
-title = "Dive Computer Teardown"
+title = "Dive Computer Teardown - Genesis ReSource"
 showonlyimage = false
 image = "projects/dive-comp-teardown/LinkImage-front.jpg"
 
