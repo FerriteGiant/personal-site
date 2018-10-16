@@ -78,9 +78,9 @@ The reverse side of the PCB. Note the pads which connect to the springs I pointe
 
 ##### Pressure Sensor
 
-The pressure sensor was giving bad readings according to the error the computer showed. Since the computer is from circa 2003, the manufacturer doesn't service this model anymore, so no point is being non-destructive.
+The pressure sensor was giving bad readings according to the error the computer showed. Since the computer is from circa 2003, the manufacturer doesn't service this model anymore, so no point in being non-destructive.
    
-This is tiny module underneath the black protective goop inside the pressure sensor. It measures 1.5mm x 1.5mm. 
+This is tiny module underneath the black protective goop inside the pressure sensor. It measures 1.5mm x 1.5mm x 0.9mm. 
 
 <br />
 <img src="/projects/dive-comp-teardown-versa-pro/sensor-0.jpg" alt=""  style="width:500px" class="img-responsive"/>
@@ -92,16 +92,30 @@ And this is the module under a microscope. You can see the locations the bond wi
 <img src="/projects/dive-comp-teardown-versa-pro/sensor-1.jpg" alt=""  style="width:500px" class="img-responsive"/>
 <br />
 
-There is definitely some 3-dimensionality to this module. From doing some reading I believe it is a Wheatstone bridge composed of piezo-resistive elements. There is probably a sealed chamber inside for use as a reference pressure. The output signal is a differential analog voltage which goes off to an  opamp circuit to prepare a signal which can be measured by the ADC in the microcontroller.
-
-[Example Pressure Sensor Datasheet](/projects/dive-comp-teardown-versa-pro/pdfs/smd_pressure_sensor_datasheet.pdf)
-
-   
 <br />
 <img src="/projects/dive-comp-teardown-versa-pro/sensor-2.jpg" alt=""  style="width:500px" class="img-responsive"/>
 <br />
 
-The circuit below is composed of four opamps and various passives. 
+There is definitely some 3-dimensionality to this module. From doing some reading I believe it is a Wheatstone bridge composed of piezo-resistive elements. There is probably a sealed chamber inside for use as a reference pressure. The output signal is a differential analog voltage which goes off to an  opamp circuit to prepare a signal which can be measured by the ADC in the microcontroller.
+
+Update: I emailed SMI and asked if they could identify the sensor, and they responded a few hours later that it was the SM5106. In the snippets from the datasheet shown below, you can see that it is indeed a Wheatstone bridge composed of four piezoresistive elements. 
+
+[SM5106 Datasheet](/projects/dive-comp-teardown-versa-pro/pdfs/SM5106_datasheet.pdf)
+
+[SM5106 Datasheet 2](/projects/dive-comp-teardown-versa-pro/pdfs/SM5106_die.pdf)
+
+<br />
+<img src="/projects/dive-comp-teardown-versa-pro/sensor-3.png" alt=""  style="width:600px" class="img-responsive"/>
+<br />
+
+Below is a nearly identical die showing the 4 squiggly bits which form the actual sensing elements. 
+
+<br />
+<img src="/projects/dive-comp-teardown-versa-pro/sensor-4.png" alt=""  style="width:400px" class="img-responsive"/>
+<br />
+   
+
+The circuit below conditions the signal coming from the sensor, preparing it to be read by the ADC. It is composed of four opamps and various passives. 
 
 [Opamp Datasheet](/projects/dive-comp-teardown-versa-pro/pdfs/MAX4294_quad_opamp_datasheet.pdf)
 
