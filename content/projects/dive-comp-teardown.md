@@ -79,13 +79,12 @@ The metal can thing at the top is the pressure sensor which is exposed to the wa
 <img src="/projects/dive-comp-teardown/circuit-back-full.jpg" alt=""  style="width:400px" class="img-responsive"/>
 <br />
 
-The inductor is connected to pin 4 of the mystery IC.
+The inductor is connected to pin 4 of the D355 Electroluminescent Lamp driver IC. ([Datasheet](/projects/dive-comp-teardown/D355_datasheet.pdf) for a very similar IC.) 
 
 <br />
 <img src="/projects/dive-comp-teardown/circuit-back-close.jpg" alt=""  style="width:400px" class="img-responsive"/>
 <br />
 
-I measure the logic voltage level to be 4.5 V, so I suspect the mystery IC with the inductor is a step down switching DC-DC converter since the 6 volts from the batteries must be getting stepped down somewhere.
 
-I believe this computer was originally purchased at some point in the 90's and I don't know how similar modern dive computers are, but they still need to do all the same things so probably not that different. I hope this will be interesting to someone and if you know what that mystery IC is, shoot me an email!
+I believe this computer was originally purchased at some point in the 90's and I don't know how similar modern dive computers are, but they still need to do all the same things so probably not that different. 
 
