@@ -55,6 +55,7 @@ The LCD itself is in the lower left. The polywELD object in the upper left is an
 
 Below you can see labels for all the main components of the circuit. Most of these will be discussed in more detail further down this post. 
 
+* [MSP430 Microcontroller Datasheet](http://www.ti.com/lit/ds/slas272h/slas272h.pdf)
 * [EEPROM Datasheet](/projects/dive-comp-teardown-versa-pro/pdfs/AT25256_SPI_EEPROM_datasheet.pdf)
 * [LCD Driver Datasheet](/projects/dive-comp-teardown-versa-pro/pdfs/LC75824_datasheet.pdf)
    
