@@ -4,6 +4,9 @@ title = "Dive Computer Teardown - Versa Pro"
 showonlyimage = false
 image = "projects/dive-comp-teardown-versa-pro/LinkImage-front.jpg"
 draft = false
+aliases = [
+  "/projects/versa-pro/"
+  ]
 
 +++
 Teardown and reverse engineering of the Oceanic Versa Pro.
