@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background col-main-fixedpos">
+  {{ partial "mobileNavToggle.html" . }}
+<div class="row"> 
+   <div class="content-column-content">
+     <div class="col-md-3"> 
+       <div class="image"> 
+         <img src="{{ .Site.BaseURL}}{{ .Params.image }}" width="230px" class="img-responsive" alt="">
+       </div>
+     </div>
+
+     <div class="col-md-5">
+       <h2>{{ .Title }}</h2>
+       <p class="author-category">
+         {{ .Params.author }}
+       </p>
+
+       <p class="date-comments">
+          <i class="fa fa-calendar-o"></i> {{ .Date.Format "January 2, 2006" }}
+       </p>
+
+       
+     </div>
+   </div>
+</div>
+
+<div class="row">
+  <div class="content-column-content">
+    <div class="col-lg-8">
+       {{if eq .Section "projects"}}
+         <div class="author-category" style="font-weight: bold; padding-top:2rem">{{ .Summary }}</div>
+       {{end}}
+       {{ $body := replace .Content .Summary "" }}
+       {{ $body | safeHTML }}
+      
+    </div>
+   </div>
+</div>
+
+
+
+
+</div>
+   
+{{ end }}

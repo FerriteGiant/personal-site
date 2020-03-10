@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+    {{ partial "mobileNavToggle.html" . }}
+  <div class="row">
+    <div class="content-column-content">
+      <h1>Blog</h1>
+      <p>
+       Miscellaneous notes and musings.
+      </p>
+    </div>
+  </div>
+
+    <div class="grid">
+          {{ range (where .Data.Pages "Section" "blog") }}
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+                  <div class="box-masonry">
+                      {{ if and (isset .Params "image") .Params.image }}
+                        {{ if eq .Params.showonlyimage true }}
+                        <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay">
+                        {{ else }}
+                        <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        {{ end }}
+                            <img src="/{{ .Params.image }}" alt="" class="img-responsive">
+                        </a>
+                      {{ end }}
+                      {{ if eq .Params.showonlyimage true }}
+                      <div class="box-masonry-hover-text-header">
+                      {{ else }}
+                      <div class="box-masonry-text">
+                      {{ end }}
+                          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                          <div class="box-masonry-desription">
+                              <p>{{ .Summary }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          {{ end }}
+    </div>
+{{ end }}

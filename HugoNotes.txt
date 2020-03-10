@@ -7,3 +7,10 @@ hugo
 #Create a new project post
 hugo new projects/name.md
 #Then create a directory in static/projects/ for files 
+
+
+The layout for pages in content/foo/ is defined in layouts/foo/single.html
+
+The layout for pages which show lists of the pages in content/foo/ is in layouts/section/foo.html
+
+

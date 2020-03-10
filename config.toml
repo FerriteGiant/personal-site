@@ -44,8 +44,12 @@ googleAnalytics = "UA-114541825-1"
   url = "about/"
 
   [[params.navlinks]]
-  name = "Projects"
+  name = "Project Posts"
   url = "projects/"
+
+  [[params.navlinks]]
+  name = "Blog Posts"
+  url = "blog/"
 
 #  [[params.navlinks]]
 #  name = "Get in touch"
@@ -56,6 +60,6 @@ googleAnalytics = "UA-114541825-1"
   linkedin      = "https://www.linkedin.com/in/cgreenley/"
 #  stackoverflow = "full profile url in stackoverflow"
 #  instagram     = "full profile url in instagram"
-  github        = "https://github.com/yelneerg"
+  github        = "https://github.com/FerriteGiant"
   thingiverse = "https://www.thingiverse.com/FerriteGiant/designs"
   instructables = "https://www.instructables.com/member/FerriteGiant/instructables/"
