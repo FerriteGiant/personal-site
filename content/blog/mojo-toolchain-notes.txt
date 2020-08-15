@@ -1,0 +1,30 @@
+Unzip
+Xilinx_ISE_14.7_Win10_14.7_VM_0213_1\ova\14.7_VM.ova
+
+Install VirtualBox and load VM image
+https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html
+
+Plug in Mojo board and determine COM port
+
+Change VM settings
+https://techtooltip.wordpress.com/2008/09/12/using-host-serial-port-from-guest-in-virtual-box/
+
+Start VM
+
+Start ISE
+Help -> Manage License...
+Acquire a License
+	- Get Free Vivado/ISE WebPack License
+Download license file "Xilinx.lic"
+From "Manage Licenses" tab click "Load License..."
+
+Create test program
+
+Synthesize and generate .bit file
+
+Download Mojo loader
+https://alchitry.com/pages/mojo-loader
+
+Open .bit file ("Open Bin File")
+
+Click "Load" 
