@@ -11,7 +11,7 @@ features = ["disqus", "bootstrap", "responsive", "google analytics"]
 min_version = 0.17
 
 [author]
-  name = "Kishan B"
+  name = "Kishan"
   homepage = "https://github.com/kishaningithub"
 
 # If porting an existing theme

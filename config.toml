@@ -15,8 +15,8 @@ googleAnalytics = "UA-114541825-1"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "sea"
-  description = "Various projects relating to embedded/computer engineering, electrical engineering, 3D printing, physics, etc..."
-  copyright = "&copy;2018 Chris Greenley"
+  description = "Projects relating to embedded/computer engineering, electrical engineering, 3D printing, physics, etc..."
+  copyright = "&copy;2020 Chris Greenley"
   sidebarAbout = [
     "I am a physicist and engineer with a passion for understanding the universe and building new things.",
   ]
