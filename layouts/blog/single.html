@@ -27,7 +27,7 @@
 <div class="row">
   <div class="content-column-content">
     <div class="col-lg-8">
-       {{if eq .Section "projects"}}
+       {{if eq .Section "blog"}}
          <div class="author-category" style="font-weight: bold; padding-top:2rem">{{ .Summary }}</div>
        {{end}}
        {{ $body := replace .Content .Summary "" }}
