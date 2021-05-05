@@ -19,6 +19,7 @@ googleAnalytics = "UA-114541825-1"
   copyright = "&copy;2020 Chris Greenley"
   sidebarAbout = [
     "I am a physicist and engineer with a passion for understanding the universe and building new things.",
+    "My <a href=\"https://keys.openpgp.org/search?q=061B3AF470A1DE7623C0F3CCC2DA3396DC24B189\" target=\"_blank\" >PGP key</a> fingerprint: 061B 3AF4 70A1 DE76 23C0  F3CC C2DA 3396 DC24 B189"
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
